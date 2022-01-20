@@ -1,8 +1,7 @@
-## Machine Learning & Climate: Research Project Diary
-### Julia Guo, jzg2110
----
+# Machine Learning & Climate: Research Project Diary
+Authored by Julia Guo, jzg2110
 
-### January 19th, 2022
+## January 19th, 2022
 
 Hello! This is my first entry. How exciting!
 
