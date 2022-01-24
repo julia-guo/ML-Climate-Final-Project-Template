@@ -6,3 +6,9 @@ Authored by Julia Guo, jzg2110
 Hello! This is my first entry. How exciting!
 
 In this journal, I will be recording my progress, discoveries, roadblocks, thoughts and feelings, etc. surrounding the research I am conducting towards the final project for this class. I look forward to this journey and I hope I am able to produce interesting and helpful work by the end of the semester.
+
+**Progress:** Today I looked through the 2021 and 2020 iterations of the NeurIPS Workshop Tackling Climate Change with Machine Learning for papers related to NLP and climate, since my background is in NLP. I compiled a list of eight papers for literature review.
+
+## January 23rd, 2022
+
+**Progress:** Today I read two papers from the aforementioned lit review. One was about creating benchmarking tasks for remote sensing (CV). The other was about classifying corporate disclosures for climate risk. It may be interesting to think of some NLP-related benchmarking tasks, such as taking large pre-trained language models and fine-tuning them on climate risk text classification. The problem with this is that I will need a large amount of labeled data, which I do not have at the moment. I will continue looking for a labeled dataset, but it may also be interesting to think of weak labelling algorithms to automatically label climate-related text data.
