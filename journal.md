@@ -22,3 +22,15 @@ I am still somewhat unsure of what my project will be since I don't have access 
 I liked the counting cows paper and the ideas of the ocean paper. I'd like to do something related to animal conservation. Maybe I could scrape papers on animal conservation and try to identify the animal being discussed, and classify the degree of endangerment. Data could be collected from here: https://zslpublications.onlinelibrary.wiley.com/journal/14691795. I could just scrape the abstracts as input text to the classifier. I guess I'm not sure if there's a need for this, however. I'll try to look into pressing issues related to animals/the ocean that involve text. I'm sure I'll find something :)
 
 **Update:** I read some more papers on ML x wildlife conservation, and I found a site with a lot of relevant text data! https://www.conservationevidence.com/ I emailed them to see if I could have access to the data in spreadsheet format. Hopefully they reply...!
+
+## February 8th, 2022
+
+**Progress:** No update
+
+## February 15th, 2022
+
+**Progress:** No update
+
+## February 22nd, 2022
+
+**Progress:** insert
