@@ -25,12 +25,12 @@ I liked the counting cows paper and the ideas of the ocean paper. I'd like to do
 
 ## February 8th, 2022
 
-**Progress:** No update
+**Progress:** No update (Was waiting for a response on data)
 
 ## February 15th, 2022
 
-**Progress:** No update
+**Progress:** No update (Rough week, bad mental health, emailed Prof. Kucukelbir)
 
 ## February 22nd, 2022
 
-**Progress:** insert
+**Progress:** It seems like they are not going to reply to me, haha. It's been a while since I used BeautifulSoup for web scraping but I was able to just scrape the data using that. You can see the CSV and scraping script in the git repo! Next steps: Convert textual labels into categorical labels. Then I can train BERT to classify statements. Seems straightforward!
