@@ -34,3 +34,7 @@ I liked the counting cows paper and the ideas of the ocean paper. I'd like to do
 ## February 22nd, 2022
 
 **Progress:** It seems like they are not going to reply to me, haha. It's been a while since I used BeautifulSoup for web scraping but I was able to just scrape the data using that. You can see the CSV and scraping script in the git repo! Next steps: Convert textual labels into categorical labels. Then I can train BERT to classify statements. Seems straightforward!
+
+## March 1st, 2022
+
+**Progress:** Converted from string to number for categories, and set upa a BERT script. Going to train soon!
