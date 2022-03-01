@@ -37,4 +37,4 @@ I liked the counting cows paper and the ideas of the ocean paper. I'd like to do
 
 ## March 1st, 2022
 
-**Progress:** Converted from string to number for categories, and set upa a BERT script. Going to train soon!
+**Progress:** Converted from string to number for categories, and set up a BERT script. Going to train soon!
