@@ -5,7 +5,8 @@ import numpy as np
 from transformers import *
 from sklearn.model_selection import train_test_split
 from utils import flat_accuracy
-from evaluation import eval, train
+from evaluation import eval
+from training import train
 
 import click
 
