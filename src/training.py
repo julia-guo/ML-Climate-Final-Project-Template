@@ -10,7 +10,7 @@ def train(model, categories, weight_decay, epochs, learning_rate, adam_epsilon, 
     print('model: {}'.format(model))
     print('Device: {}'.format(device))
 
-    model.to(device)
+    # model.to(device)
     print('Device: {}'.format(device))
 
     # Set optimizer
