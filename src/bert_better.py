@@ -16,7 +16,7 @@ import click
 @click.command()
 @click.option('--actions-data', required=True, type=str, help='CSV filename containing conservation actions')
 @click.option('--batch-size', type=int, default=32, help='Batch size for training')
-@click.option('--cuda-num', type=int, default=None, help='Number of GPU to run on')
+@click.option('--cuda-num', type=int, default=0, help='Number of GPU to run on')
 @click.option('--test-size', type=float, default=0.2, help='% test in train/test split')
 @click.option('--epochs', type=int, default=10, help='Number of epochs to train')
 @click.option('--learning-rate', type=float, default=2e-5, help='Learning rate for training')
@@ -28,6 +28,7 @@ def main(actions_data: str, batch_size: int, cuda_num: int, test_size: float,
     # 1. Set up GPU
     gc.collect()
     torch.cuda.empty_cache()
+    print(cuda_num)
     if cuda_num:
         device = torch.device("cuda:{}".format(cuda_num) if torch.cuda.is_available() else "cpu")
         print('hi')
