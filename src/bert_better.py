@@ -30,6 +30,7 @@ def main(actions_data: str, batch_size: int, cuda_num: int, test_size: float,
     torch.cuda.empty_cache()
     if cuda_num:
         device = torch.device("cuda:{}".format(cuda_num) if torch.cuda.is_available() else "cpu")
+        print('hi')
     else:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print('Device: {}'.format(device))
