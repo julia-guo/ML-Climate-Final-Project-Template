@@ -62,6 +62,8 @@ def main(actions_data: str, batch_size: int, cuda_num: int, test_size: float,
     
     print(actions[0])
     print(labels[0])
+    print(len(actions))
+    print(len(labels))
 
     # Set up train/test data
 
