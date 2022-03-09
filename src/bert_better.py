@@ -59,7 +59,7 @@ def main(actions_data: str, batch_size: int, cuda_num: int, test_size: float,
     
     # Set up train/test data
 
-    train_X, test_X, train_y, test_y = train_test_split(action, labels, test_size=test_size)
+    train_X, test_X, train_y, test_y = train_test_split(actions, labels, test_size=test_size)
 
     train_X = torch.tensor(train_X)
     test_X = torch.tensor(test_X)
