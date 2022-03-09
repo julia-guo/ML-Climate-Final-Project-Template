@@ -58,6 +58,9 @@ def main(actions_data: str, batch_size: int, cuda_num: int, test_size: float,
         actions.append(action_tokens)
         labels.append(label)
     
+    print(actions[0])
+    print(labels[0])
+
     # Set up train/test data
 
     train_X, test_X, train_y, test_y = train_test_split(actions, labels, test_size=test_size)
