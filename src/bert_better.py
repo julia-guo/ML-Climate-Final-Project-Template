@@ -40,7 +40,7 @@ def main(actions_data: str, batch_size: int, cuda_num: int, test_size: float,
     # 2. Load in model
     categories = ['negative', 'neutral', 'positive']
     tokenizer = BertTokenizer.from_pretrained('bert-base-uncased')
-    model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=len(categories)).to(device)
+    model = BertForSequenceClassification.from_pretrained('bert-base-uncased', num_labels=len(categories))
 
     # 3. Load in dataset
     df = pd.read_csv(actions_data)
