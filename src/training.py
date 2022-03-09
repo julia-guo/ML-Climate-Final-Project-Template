@@ -9,6 +9,7 @@ def train(model, categories, weight_decay, epochs, learning_rate, adam_epsilon, 
     print("- - - Training - - -")
 
     model.to(device)
+    print('Device: {}'.format(device))
 
     # Set optimizer
     no_decay = ['bias', 'LayerNorm.weight']
@@ -22,6 +23,7 @@ def train(model, categories, weight_decay, epochs, learning_rate, adam_epsilon, 
 
     # Begin training
     for epoch_index in trange(epochs, desc="Epoch"):
+        print('Epoch {}'.format(epoch_index))
 
         # Only fine-tune on epoch > 0
         torch.set_grad_enabled(epoch_index > 0)
