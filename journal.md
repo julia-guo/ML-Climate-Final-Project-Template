@@ -38,3 +38,7 @@ I liked the counting cows paper and the ideas of the ocean paper. I'd like to do
 ## March 1st, 2022
 
 **Progress:** Converted from string to number for categories, and set up a BERT script. Going to train soon!
+
+## March 9th, 2022
+
+**Progress:** Tried to train the model but for some reason my code hangs at model.to(device). Don't know why this is happening. Hopefully it resolves itself...? Will look into more online posts etc. to debug further.
