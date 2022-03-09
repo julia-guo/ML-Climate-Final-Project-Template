@@ -7,6 +7,8 @@ from evaluation import eval
 
 def train(model, categories, weight_decay, epochs, learning_rate, adam_epsilon, train_dataloader, test_dataloader, device):
     print("- - - Training - - -")
+    print('model: {}'.format(model))
+    print('Device: {}'.format(device))
 
     model.to(device)
     print('Device: {}'.format(device))
