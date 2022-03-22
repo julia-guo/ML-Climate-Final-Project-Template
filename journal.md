@@ -42,3 +42,7 @@ I liked the counting cows paper and the ideas of the ocean paper. I'd like to do
 ## March 9th, 2022
 
 **Progress:** Tried to train the model but for some reason my code hangs at model.to(device). Don't know why this is happening. Hopefully it resolves itself...? Will look into more online posts etc. to debug further.
+
+## March 21st, 2022
+
+**Progress:** The people from Conservation Evidence got back to me! This is very exciting. I hope my project can change direction to genuinely make an impact using domain knowledge. I emailed them to set up a call and will update on how it goes.
